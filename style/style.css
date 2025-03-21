@@ -21,6 +21,8 @@ body {
 
 #many {
     width:9%;
+    filter: brightness(200);
+    padding: 2px;
 }
 
 .logo {
@@ -175,6 +177,10 @@ hr {
     padding-right: 12vw;
 }
 
+.listing li::marker {
+    color:purple;
+}
+
 .corps2 {
     display: flex;
     flex-direction: column;
@@ -190,4 +196,17 @@ hr {
     font-weight: 200;
     line-height: 1.9;
     color:rgb(68, 68, 68);
+}
+
+.section-2 {
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: darkslategrey;
+}
+
+.fb {
+    filter: brightness(200);
+    height: 2vh;
 }

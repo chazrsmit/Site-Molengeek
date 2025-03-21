@@ -1,0 +1,60 @@
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #9b009d;
+    height: 6vh;
+    flex-wrap: wrap;
+}
+
+body {
+    margin:0px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logomany {
+    justify-content: left;
+    left: 0px;
+}
+
+#many {
+    width:45px;
+    margin:3px;
+    color:aliceblue;
+}
+
+.head2 {
+    justify-content: center;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courant {
+    margin-right: 5px;
+    color:white;
+    opacity: 60%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#eM {
+    font-style: italic;
+}
+
+.btn-green{
+    background-color: #00e173;
+    border-radius: 5px;
+    color:white;
+    padding:5px;
+    width:100px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

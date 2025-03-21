@@ -1,0 +1,55 @@
+.secthead {
+    background-color: #9b009d;
+    display: flex;
+    height: 6vh;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+body {
+    margin:0px;
+}
+
+#many {
+    width:9%;
+    margin:3px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courant {
+    margin-right: 5px;
+    color:white;
+    opacity: 60%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#eM {
+    font-style: italic;
+}
+
+.btn-green{
+    background-color: #00e173;
+    border-radius: 5px;
+    color:white;
+    padding:5px;
+    width:100px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

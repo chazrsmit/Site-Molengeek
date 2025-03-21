@@ -203,10 +203,18 @@ hr {
 }
 
 footer {
-    background-color: darkslategrey;
+    background-color: #363636;
+    padding-top:60px;
+    padding-bottom:60px;
 }
 
-.fb {
-    filter: brightness(200);
-    height: 2vh;
+.icons {
+    display: flex;
+    justify-content: center;
 }
+
+
+.icon1 img {
+    filter: invert(1);
+    height: 3vh;
+  }

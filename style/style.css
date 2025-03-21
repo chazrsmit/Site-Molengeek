@@ -205,7 +205,11 @@ hr {
 footer {
     background-color: #363636;
     padding-top:60px;
-    padding-bottom:60px;
+    /* padding-bottom:60px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
 }
 
 .icons {
@@ -213,8 +217,43 @@ footer {
     justify-content: center;
 }
 
-
-.icon1 img {
+.icons img {
     filter: invert(1);
-    height: 3vh;
+    height: 3.5vh;
   }
+
+.icon1, .icon2, .icon3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+
+.icon1 p, .icon2 p, .icon3 p {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    color:white;
+    font-size: 8px;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+}
+
+.logomolen-2 img {
+    height:10vh;
+}
+
+.logomolen-2 {
+    margin-top: 70px;;
+}
+
+.copy {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.copy p {
+    font-family: 'Roboto';
+    font-size: 10px;
+    color: #4f4f4f;
+}

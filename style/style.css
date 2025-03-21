@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .secthead {
     background-color: #9b009d;
     display: flex;
     height: 6vh;
+    margin: 0px;
 }
 
 .head2 {
@@ -17,12 +21,12 @@ body {
 
 #many {
     width:9%;
-    margin:3px;
 }
 
 .logo {
     display: flex;
-    align-items: center;}
+    align-items: center;
+}
 
 .formulaire {
     display: flex;
@@ -52,4 +56,75 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
 
+
+.navbar, .navbar li {
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+
+.navbar li p {
+    display: flex;
+    align-items: center;
+    margin:10px;
+}
+
+.logomolen {
+    width:40%;
+    position:relative;
+}
+
+.logomol {
+    border-bottom:solid 0.5px rgb(227, 227, 227);
+    border-right:solid 0.5px rgb(227, 227, 227);
+    position:relative;
+    flex:1;
+}
+
+.menu, .cowork, .logomol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+}
+
+.cowork {
+    flex:1;
+    padding-left:10px;
+    padding-right: 10px;
+    display: flex;
+    border-bottom: solid 0.5px rgb(227, 227, 227);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.menu {
+    flex:3;
+    display: flex;
+    border-bottom: solid 0.5px rgb(227, 227, 227);
+    border-right: solid 0.5px rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a::before {
+    content: "";
+    display: inline-block;
+}

@@ -138,7 +138,7 @@ a::after {
     width: 63px;
     border: solid 2px black;
     display: inline-block;
-    bottom: -2px;
+    bottom: 3px;
     position:absolute;
 }
 

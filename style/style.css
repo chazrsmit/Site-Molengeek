@@ -20,6 +20,7 @@ body {
     width:9%;
     filter: brightness(180);
     padding: 2px;
+    opacity: 60%;
 }
 
 .logo {

@@ -45,7 +45,7 @@ body {
 
 #eM {
     font-style: italic;
-        font-family: 'Montserrat';
+    font-family: 'Montserrat';
 }
 
 .btn-green{
@@ -204,7 +204,7 @@ hr {
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 200;
-    line-height: 1.9;
+    line-height: 1.8;
     color:rgb(68, 68, 68);
 }
 

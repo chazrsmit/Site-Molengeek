@@ -69,7 +69,7 @@ nav {
 .navbar, .navbar li {
     display: flex;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
 .navbar li p {
@@ -135,13 +135,13 @@ a::after {
     bottom:-10px;
 } */
 
-.a-2::before {
+.a-2:hover::before {
     content: "";
     width: 63px;
     border: solid 2px black;
     display: inline-block;
     bottom: 3px;
-    position:absolute;
+    position: absolute;
 }
 
 .titre{

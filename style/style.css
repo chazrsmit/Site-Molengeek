@@ -126,7 +126,7 @@ a {
 
 a::after {
     content: "";
-    width: 70px;
+    width: 80px;
     border: solid 2px black;
     display: inline-block;
     bottom:-10px;

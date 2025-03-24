@@ -124,11 +124,12 @@ a {
     color:black;
 }
 
-a::after {
+.a-2::before {
     content: "";
     width: 70px;
     border: solid 2px black;
     display: inline-block;
+    bottom:-8px;
 }
 
 .titre{
@@ -212,6 +213,7 @@ footer {
 .icons {
     display: flex;
     justify-content: center;
+    gap:15px;
 }
 
 .icons img {

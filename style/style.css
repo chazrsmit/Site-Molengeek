@@ -17,9 +17,10 @@ body {
 }
 
 #many {
-    width:9%;
+    width:10%;
     filter: brightness(180);
     padding: 2px;
+    padding-top: 4px;
     opacity: 60%;
 }
 

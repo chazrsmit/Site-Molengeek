@@ -124,12 +124,12 @@ a {
     color:black;
 }
 
-.a-2::before {
+a::after {
     content: "";
     width: 70px;
     border: solid 2px black;
     display: inline-block;
-    bottom:-8px;
+    bottom:-10px;
 }
 
 .titre{
